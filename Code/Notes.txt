@@ -1,0 +1,36 @@
+Land Tile Size- 10.5 x 10.5 ft
+Standard (25 deg) Height Increment - 5ft
+Minimum Height - 0ft
+Maximuum Height - 55ft
+Minimum Clearance Under / Over Track - 10ft
+Brake Magnitude - 1 ... 15 * increment
+Brake Increment - 4.5 mph
+Booster Magnitude - 1 ... 15 * increment
+Booster Increment - 2.25
+
+Track States:
+Slope Degree - 25 deg up / 0 deg / 25 deg down
+Banked - Left / Right
+
+Track Pieces:
+Straight
+Large Turn
+Regular Turn
+Small Turn
+
+Special Pieces:
+Brakes
+Stations
+Booster
+S-bend
+Helix Small
+Helix Large
+
+Potential Physics Constraints:
+Subsequent peaks cannot be above prior peaks
+
+Potential Artificial Constraints:
+Minimum Station Length - 2 Tiles
+Maximum Station Length - 6 Tiles
+No Banking
+Height >= 0
